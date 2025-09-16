@@ -15,23 +15,23 @@ const Landing: React.FC =  () => {
 
       {/* Small buttons */}
       <div className="flex gap-4">
-        <Button style="Small Sm" size="small" shape="rounded-sm" />
-        <Button style="Small Md" size="small" shape="rounded-md" />
-        <Button style="Small Full" size="small" shape="rounded-lg" />
+        <Button styles="Small Sm" size="small" shape="rounded-sm" />
+        <Button styles="Small Md" size="small" shape="rounded-md" />
+        <Button styles="Small Full" size="small" shape="rounded-lg" />
       </div>
 
       {/* Medium buttons */}
       <div className="flex gap-4">
-        <Button style="Medium Sm" size="medium" shape="rounded-sm" />
-        <Button style="Medium Md" size="medium" shape="rounded-md" />
-        <Button style="Medium Full" size="medium" shape="rounded-lg" />
+        <Button styles="Medium Sm" size="medium" shape="rounded-sm" />
+        <Button styles="Medium Md" size="medium" shape="rounded-md" />
+        <Button styles="Medium Full" size="medium" shape="rounded-lg" />
       </div>
 
       {/* Large buttons */}
       <div className="flex gap-4">
-        <Button style="Large Sm" size="large" shape="rounded-sm" />
-        <Button style="Large Md" size="large" shape="rounded-md" />
-        <Button style="Large Full" size="large" shape="rounded-lg" />
+        <Button styles="Large Sm" size="large" shape="rounded-sm" />
+        <Button styles="Large Md" size="large" shape="rounded-md" />
+        <Button styles="Large Full" size="large" shape="rounded-lg" />
       </div>
     </main>
   )
