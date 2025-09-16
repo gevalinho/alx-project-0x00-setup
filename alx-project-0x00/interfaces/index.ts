@@ -5,8 +5,9 @@ export interface PillProps {
 // interfaces/index.ts
 
 export interface ButtonProps {
-  title: string;
+  style: string,
+  title?: string;
   size?: "small" | "medium" | "large";
-  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
+  shape?: "rounded-sm" | "rounded-md" | "rounded-lg";
   onClick?: () => void;
 }
