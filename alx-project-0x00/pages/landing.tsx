@@ -18,6 +18,7 @@ const Landing: React.FC =  () => {
         <Button styles="Small Sm" size="small" shape="rounded-sm" />
         <Button styles="Small Md" size="small" shape="rounded-md" />
         <Button styles="Small Full" size="small" shape="rounded-lg" />
+        <Button styles="Small Full" size="small" shape="rounded-full" />
       </div>
 
       {/* Medium buttons */}
@@ -25,6 +26,7 @@ const Landing: React.FC =  () => {
         <Button styles="Medium Sm" size="medium" shape="rounded-sm" />
         <Button styles="Medium Md" size="medium" shape="rounded-md" />
         <Button styles="Medium Full" size="medium" shape="rounded-lg" />
+        <Button styles="Medium Full" size="medium" shape="rounded-full" />
       </div>
 
       {/* Large buttons */}
@@ -32,6 +34,7 @@ const Landing: React.FC =  () => {
         <Button styles="Large Sm" size="large" shape="rounded-sm" />
         <Button styles="Large Md" size="large" shape="rounded-md" />
         <Button styles="Large Full" size="large" shape="rounded-lg" />
+        <Button styles="Large Full" size="large" shape="rounded-full" />
       </div>
     </main>
   )
